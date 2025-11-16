@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Falhas na Power Supply" />
+    <meta name="author" content="Santiago Dias, Luiz Sousa e Vasco Gomes" />
+    <title>Falhas na Power Supply</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <img src="assets/img/inete.jpg" width="150" alt="Logo INETE">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Falhas na Power Supply</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Alternar navegação">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">Introdução</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Falhas Comuns</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Identificação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Soluções</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quiz">Questionário</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Trabalho</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header class="masthead">
+        <div class="container text-center">
+            <div class="masthead-subheading">Análise Técnica</div>
+            <div class="masthead-heading text-uppercase">Falhas na Power Supply</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#about">Saber Mais</a>
+        </div>
+    </header>
+
+    <!-- Introdução -->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">O que é uma Power Supply</h2>
+                <p class="section-subheading text-muted">
+                    A fonte de alimentação, ou Power Supply, é o componente responsável por fornecer energia elétrica aos restantes elementos do computador. 
+                    Converte a corrente alternada da tomada (AC) em corrente contínua (DC), adequada para os circuitos internos. 
+                    Um mau funcionamento da fonte pode causar instabilidade, reinícios inesperados e até danos permanentes no sistema.
+                </p>
+                <p class="section-subheading text-muted">
+                    Existem vários tipos de fontes:
+                </p>
+                <ul>
+                    <li><strong>ATX:</strong> Padrão mais comum em computadores de mesa.</li>
+                    <li><strong>SFX:</strong> Compacta, usada em gabinetes pequenos.</li>
+                    <li><strong>Redundant/Hot Swap:</strong> Utilizada em servidores para garantir funcionamento contínuo.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tipos de Falhas -->
+    <section class="page-section bg-light" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Tipos de Falhas Comuns</h2>
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Falha Total</h4>
+                    <p class="text-muted">O computador não liga de todo. Pode ser causada por fusíveis queimados, cabos soltos ou falhas internas no transformador.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-exclamation-triangle fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Desligar Aleatório</h4>
+                    <p class="text-muted">O sistema desliga-se inesperadamente devido a sobreaquecimento, condensadores danificados ou instabilidade na corrente.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-plug fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Ruído Elétrico</h4>
+                    <p class="text-muted">Zumbidos, cheiros a queimado ou faíscas podem indicar falhas nos componentes internos ou mau isolamento dos fios.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-temperature-high fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Sobreaquecimento</h4>
+                    <p class="text-muted">Ventoinhas com pó ou condensadores envelhecidos podem causar temperaturas elevadas, reduzindo a vida útil da fonte.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-exchange-alt fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Tensão Instável</h4>
+                    <p class="text-muted">Flutuações na corrente podem causar reinícios, travamentos ou falhas nos componentes sensíveis, como CPU e GPU.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-fan fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Problemas de Ventoinha</h4>
+                    <p class="text-muted">Ventoinhas danificadas ou bloqueadas causam má circulação de ar, aumentando a temperatura e risco de falha de componentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Identificação -->
+    <section class="page-section" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Como Identificar as Falhas</h2>
+                <p class="section-subheading text-muted">
+                    A identificação de falhas numa fonte de alimentação deve ser feita com cuidado e conhecimento técnico. Alguns métodos incluem:
+                </p>
+            <div class="solve-falhas">
+                <p>Verificar se o LED de energia acende ao ligar o computador.</p>
+                <p>Testar com outra fonte funcional para confirmar se o problema é realmente da Power Supply.</p>
+                <p>Usar um multímetro para medir as tensões de saída (12V, 5V e 3.3V).</p>
+                <p>Observar sinais visuais de dano, como condensadores inchados ou cheiro a queimado.</p>
+                <p>Utilizar testadores de PSU específicos para medir saída de tensão de forma rápida.<p>
+                <p>Observar LEDs indicadores ou alarmes sonoros que algumas fontes possuem.</p>
+                <p>Testar cada linha de tensão separadamente (3.3V, 5V, 12V) para detectar pequenas variações.</p>
+                <p>Inspecionar capacitores e bobinas à procura de inchaço, vazamentos ou marcas de queimado.</p>
+            </div>
+    </section>
+
+    <!-- Soluções -->
+    <section class="page-section bg-light" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Como Resolver os Problemas</h2>
+                <p class="section-subheading text-muted">
+                    A resolução de falhas na Power Supply depende do tipo e gravidade do defeito:
+                </p>
+
+            <div class="solve-falhas">
+                <p>Substituir cabos danificados ou conectores soltos.</p>
+                <p>Limpar a fonte de alimentação e garantir ventilação adequada.</p>
+                <p>Trocar condensadores ou fusíveis queimados, se tiver conhecimentos técnicos.</p>
+                <p>Se o problema persistir, substituir completamente a fonte de alimentação.</p>
+                <p>Manter o computador limpo de pó e com fluxo de ar adequado.</p>
+                <p>Substituir a fonte por uma de maior qualidade com certificação 80 Plus para eficiência energética.</p>
+                <p>Evitar sobrecarga conectando muitos periféricos simultaneamente sem calcular a potência total.</p>
+                <p>Monitorizar a tensão de entrada e a temperatura da fonte usando software ou sensores externos.</p>
+            </div>
+    </section>
+    <!-- Questionário -->
+    <section class="page-section" id="quiz">
+        <div class="container quiz-wrapper">
+            <div class="text-center mb-4">
+                <h2 class="section-heading text-uppercase">Questionário sobre a Power Supply</h2>
+                <p class="section-subheading text-muted">
+                    Responde às perguntas com base nas informações desta página e no fim vê quantas acertaste.
+                </p>
+            </div>
+
+            <!-- Pergunta 1 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">1</div>
+                    <div>
+                        <h4 class="h5 mb-1">Qual é a função principal da Power Supply (fonte de alimentação)?</h4>
+                        <span class="text-muted small">
+                            Introdução &mdash; definição de Power Supply
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1a" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q1a">
+                        Converter a corrente alternada (AC) em corrente contínua (DC) e alimentar os componentes do computador.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1b">
+                    <label class="form-check-label quiz-option-label" for="q1b">
+                        Armazenar dados de forma permanente.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1c">
+                    <label class="form-check-label quiz-option-label" for="q1c">
+                        Arrefecer a CPU e a GPU.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 2 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">2</div>
+                    <div>
+                        <h4 class="h5 mb-1">Qual destes tipos de fonte é o mais comum em computadores de mesa?</h4>
+                        <span class="text-muted small">
+                            Secção “Existem vários tipos de fontes”
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q2a">
+                    <label class="form-check-label quiz-option-label" for="q2a">
+                        SFX
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q2b" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q2b">
+                        ATX
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q2c">
+                    <label class="form-check-label quiz-option-label" for="q2c">
+                        Redundant/Hot Swap apenas para portáteis.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">3</div>
+                    <div>
+                        <h4 class="h5 mb-1">O que pode causar uma falha total da Power Supply?</h4>
+                        <span class="text-muted small">
+                            Falha Total
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q3a" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q3a">
+                        Fusíveis queimados, cabos soltos ou falhas internas no transformador.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q3b">
+                    <label class="form-check-label quiz-option-label" for="q3b">
+                        Falta de espaço em disco.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q3c">
+                    <label class="form-check-label quiz-option-label" for="q3c">
+                        Drivers da placa gráfica desatualizados.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 4 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">4</div>
+                    <div>
+                        <h4 class="h5 mb-1">Desligar aleatório do sistema pode estar relacionado com:</h4>
+                        <span class="text-muted small">
+                            Desligar Aleatório
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q4a">
+                    <label class="form-check-label quiz-option-label" for="q4a">
+                        Teclado mal conectado.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q4b" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q4b">
+                        Sobreaquecimento, condensadores danificados ou instabilidade na corrente.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q4c">
+                    <label class="form-check-label quiz-option-label" for="q4c">
+                        Falta de cabo HDMI.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 5 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">5</div>
+                    <div>
+                        <h4 class="h5 mb-1">Qual dos seguintes sinais pode indicar ruído elétrico ou falhas internas na fonte?</h4>
+                        <span class="text-muted small">
+                            Ruído Elétrico
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q5a">
+                    <label class="form-check-label quiz-option-label" for="q5a">
+                        Abertura automática do leitor de DVD.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q5b" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q5b">
+                        Zumbidos, cheiros a queimado ou faíscas.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q5c">
+                    <label class="form-check-label quiz-option-label" for="q5c">
+                        Ícones do ambiente de trabalho desorganizados.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 6 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">6</div>
+                    <div>
+                        <h4 class="h5 mb-1">Ventoinhas bloqueadas ou danificadas podem provocar:</h4>
+                        <span class="text-muted small">
+                            Problemas de Ventoinha
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q6a">
+                    <label class="form-check-label quiz-option-label" for="q6a">
+                        Aumento da velocidade da internet.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q6b" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q6b">
+                        Má circulação de ar, aumento da temperatura e risco de falha de componentes.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q6c">
+                    <label class="form-check-label quiz-option-label" for="q6c">
+                        Apenas diminuição do brilho do monitor.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 7 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">7</div>
+                    <div>
+                        <h4 class="h5 mb-1">Qual destes métodos é mencionado para identificar falhas na Power Supply?</h4>
+                        <span class="text-muted small">
+                            Como Identificar as Falhas
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q7a">
+                    <label class="form-check-label quiz-option-label" for="q7a">
+                        Instalar um novo sistema operativo.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q7b" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q7b">
+                        Medir as tensões de saída com um multímetro (12V, 5V e 3.3V).
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q7c">
+                    <label class="form-check-label quiz-option-label" for="q7c">
+                        Formatar o disco rígido.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Pergunta 8 -->
+            <div class="quiz-question mb-4 p-4 border-0">
+                <div class="quiz-question-title mb-3">
+                    <div class="quiz-badge">8</div>
+                    <div>
+                        <h4 class="h5 mb-1">Uma das soluções recomendadas para problemas persistentes na Power Supply é:</h4>
+                        <span class="text-muted small">
+                            Como Resolver os Problemas
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q8a">
+                    <label class="form-check-label quiz-option-label" for="q8a">
+                        Desligar o monitor e voltar a ligar.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q8b">
+                    <label class="form-check-label quiz-option-label" for="q8b">
+                        Aumentar a resolução do ecrã.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q8c" data-correct="true">
+                    <label class="form-check-label quiz-option-label" for="q8c">
+                        Substituir completamente a fonte de alimentação por uma de melhor qualidade.
+                    </label>
+                </div>
+                <small class="quiz-feedback d-block mt-2"></small>
+            </div>
+
+            <!-- Botão e resultado -->
+            <div class="text-center mt-4">
+                <button id="quiz-submit" class="btn btn-primary btn-xl text-uppercase">
+                    Ver quantos acertei
+                </button>
+                <p id="quiz-score" class="mt-3 fw-bold"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Trabalho -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Trabalho Realizado Por</h2>
+                <p class="section-subheading text-muted">Santiago Dias, Luiz Sousa e Vasco Gomes</p>
+                <p class="section-subheading text-muted">Curso: TGPSI||||||||||Disciplina: AC
+                </p>
+                <p class="section-subheading text-muted">Ano letivo:2025/2026
+                </p>
+                <p class="section-subheading text-muted">Professor responsavel: Maria José Cunha   
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Rodapé -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">© 2025 Falhas na Power Supply</div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacidade</a>
+                    <a class="link-dark text-decoration-none" href="#!">Termos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const btn = document.getElementById('quiz-submit');
+            if (!btn) return;
+
+            btn.addEventListener('click', function () {
+                const questions = document.querySelectorAll('.quiz-question');
+                let total = questions.length;
+                let correct = 0;
+
+                questions.forEach(question => {
+                    // limpar estados anteriores
+                    question.classList.remove('border-success', 'border-danger', 'border');
+                    const labels = question.querySelectorAll('.quiz-option-label');
+                    labels.forEach(label => {
+                        label.classList.remove('quiz-option-correct', 'quiz-option-wrong', 'text-success', 'text-danger', 'fw-bold');
+                    });
+
+                    const feedback = question.querySelector('.quiz-feedback');
+                    if (feedback) feedback.textContent = '';
+
+                    const selected = question.querySelector('input[type="radio"]:checked');
+
+                    if (!selected) {
+                        question.classList.add('border', 'border-danger');
+                        if (feedback) feedback.textContent = 'Seleciona uma opção.';
+                        return;
+                    }
+
+                    const isCorrect = selected.dataset.correct === 'true';
+
+                    if (isCorrect) {
+                        correct++;
+                        question.classList.add('border', 'border-success');
+
+                        const label = selected.closest('.form-check').querySelector('.quiz-option-label');
+                        if (label) {
+                            label.classList.add('quiz-option-correct', 'fw-bold');
+                        }
+                        if (feedback) feedback.textContent = 'Correto!';
+                    } else {
+                        question.classList.add('border', 'border-danger');
+
+                        const wrongLabel = selected.closest('.form-check').querySelector('.quiz-option-label');
+                        if (wrongLabel) {
+                            wrongLabel.classList.add('quiz-option-wrong');
+                        }
+
+                        // encontrar a opção correta
+                        const correctInput = question.querySelector('input[data-correct="true"]');
+                        if (correctInput) {
+                            const correctLabel = correctInput.closest('.form-check').querySelector('.quiz-option-label');
+                            if (correctLabel) {
+                                correctLabel.classList.add('quiz-option-correct', 'fw-bold');
+                                if (feedback) {
+                                    feedback.textContent = 'Resposta correta: ' + correctLabel.textContent.trim();
+                                }
+                            }
+                        }
+                    }
+                });
+
+                const scoreEl = document.getElementById('quiz-score');
+                if (scoreEl) {
+                    scoreEl.textContent = `Acertaste ${correct} de ${total} perguntas.`;
+                }
+
+                // scroll suave até ao resultado
+                scoreEl?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
+        });
+    </script>
+
+
+</body>
+</html>
