@@ -1,1 +1,0 @@
-# Falhas_Power_Supply
